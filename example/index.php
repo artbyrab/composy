@@ -1,8 +1,9 @@
 <?php
 require ('../vendor/autoload.php');
 
-use artbyrab\composy\Invoice;
-use artbyrab\composy\Item;
+use artbyrab\composy\Composy;
+
+$composy = new Composy();
 ?>
 
 <!doctype html>
@@ -29,6 +30,15 @@ use artbyrab\composy\Item;
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+            <img style="width:200px; padding:20px 0px;" src="../files/graphics/composy-plain-logo-large.png">
+            <hr>
+            <h1><?php echo $composy->getTitle(); ?></h1>
+            <p><?php echo $composy->getDescription(); ?></p>
+            </div><!--/.col-->
+        </div><!--/.row-->
+    </div><!--/.container-->
 </body>
 </html>

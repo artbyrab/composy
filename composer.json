@@ -1,7 +1,7 @@
 {
     "name": "artbyrab/composy",
     "description": "A PHP library template.",
-    "keywords": ["composy", "php", "composer", "package"],
+    "keywords": ["composy", "php", "composer base", "composer template", "composer", "package"],
     "license": "DBAD",
     "authors": [
         {
