@@ -6,7 +6,7 @@ Composy is a base composer package template for PHP. You can use Composy to easi
 
 Composy is designed for you to use as a template for your own package so you can simply clone or download it as a base for your new PHP composer package.
     
-###  Features
+## Features
 
 * Simple PHP composer template package.
 
@@ -14,24 +14,14 @@ Composy is designed for you to use as a template for your own package so you can
 PHP
 
 ## Clone
-Clone:
+Clone Composy to adapt it to your own project:
 
 ```
-@TODO add how to clone here
+git clone https://github.com/artbyrab/composy
 ```
 
 ## Download
-Download:
-
-```
-@TODO add how to download here
-```
-
-Documents for Composy
-* [Resources](documents/resources.md)
-* [Code Checks guide](documents/code-checks.md)
-* [Running Tests guide](documents/running-tests.md)
-
+Simply download via the repo to adapt Composy to your own project.
 
 ## Usage
 
@@ -46,6 +36,11 @@ Using Composy is easy. Below is how to use each of the folder:
     * The src folder is where your code goes
 * tests
     * The folder for the PHP Unit test file
+
+## Documents for Composy
+* [Resources](documents/resources.md)
+* [Code Checks guide](documents/code-checks.md)
+* [Running Tests guide](documents/running-tests.md)
 
 
 
