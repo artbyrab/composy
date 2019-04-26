@@ -2,7 +2,7 @@
 
 To run the tests navigate to the package root folder:
 ```
-$ cd artbyrab/package
+$ cd username/package
 ```
 
 Run PHP Unit on the tests folder:

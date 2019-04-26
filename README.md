@@ -9,6 +9,10 @@ Composy is designed for you to use as a template for your own package so you can
 ## Features
 
 * Simple PHP composer template package.
+* PHP unit testing works out of the box
+* PHP CS Fixer code checker works out of the box
+* Example README.md file stored in the README-template.md
+* Example folder which you can open in a browser and see the autoloading working
 
 ## Requirements
 PHP
@@ -25,7 +29,11 @@ Simply download via the repo to adapt Composy to your own project.
 
 ## Usage
 
-Using Composy is easy. Below is how to use each of the folder:
+Using Composy is easy. 
+
+You can use the README-template.md as a base README.md file for your. For the license you can find a BSD-3-Clause license you just need to edit the copyright holders name.
+
+Below is how to use each of the folders in the Composy package:
 * documents
     * For package documents and guides
 * example
@@ -35,7 +43,9 @@ Using Composy is easy. Below is how to use each of the folder:
 * src
     * The src folder is where your code goes
 * tests
-    * The folder for the PHP Unit test file
+    * The folder for the PHP Unit test files
+
+For more usage guides please check the document links below:
 
 ## Documents for Composy
 * [Resources](documents/resources.md)
