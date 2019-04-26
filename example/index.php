@@ -33,7 +33,7 @@ $composy = new Composy();
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-            <img style="width:200px; padding:20px 0px;" src="../files/graphics/composy-plain-logo-large.png">
+            <img style="width:200px; padding:20px 0px;" src="../files/graphics/composy-dark-plain-large-logo.png">
             <hr>
             <h1><?php echo $composy->getTitle(); ?></h1>
             <p><?php echo $composy->getDescription(); ?></p>

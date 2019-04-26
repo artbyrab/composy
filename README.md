@@ -1,6 +1,6 @@
 # Composy for PHP - A base composer package template
 
-![Image](files/graphics/composy-plain-logo-large.png?raw=true)
+![Image](files/graphics/composy-dark-plain-large-logo.png?raw=true)
 
 Composy is a base composer package template for PHP. You can use Composy to easily build new composer compatible packages.
 
