@@ -11,6 +11,7 @@ Composy is designed for you to use as a template for your own package so you can
 * Simple PHP composer template package.
 * PHP unit testing works out of the box
 * PHP CS Fixer code checker works out of the box
+* PHP compatability checker works out of the box
 * Example README.md file stored in the README-template.md
 * Example folder which you can open in a browser and see the autoloading working
 
@@ -21,7 +22,7 @@ PHP
 Clone Composy to adapt it to your own project:
 
 ```
-git clone https://github.com/artbyrab/composy
+git clone https://github.com/artbyrab/composy your-folder-name
 ```
 
 ## Download
@@ -50,6 +51,7 @@ For more usage guides please check the document links below:
 ## Documents for Composy
 * [Resources](documents/resources.md)
 * [Code Checks guide](documents/code-checks.md)
+* [PHP Compatability Checks guide](documents/php-compatability-checks.md)
 * [Running Tests guide](documents/running-tests.md)
 
 
