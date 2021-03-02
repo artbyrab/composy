@@ -11,16 +11,34 @@
     ],
     "type": "package",
     "require": {
-        "php": ">=5.5"
+        "php": ">=7.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "6.*",
+        "phpunit/phpunit": "8.*",
         "friendsofphp/php-cs-fixer": "*",
         "phpcompatibility/php-compatibility": "^9.3"
     },
     "scripts": {
         "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/phpcompatibility/php-compatibility",
-        "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths vendor/phpcompatibility/php-compatibility"
+        "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths vendor/phpcompatibility/php-compatibility",
+        "tests": [
+            "vendor/bin/phpunit tests"
+        ],
+        "lint": [
+            "@php-cs",
+            "@prettier"
+        ],
+        "php-cs": [
+            "vendor/bin/php-cs-fixer fix src -v", 
+            "vendor/bin/php-cs-fixer fix tests -v"
+        ],
+        "prettier": [
+            "prettier src --write",
+            "prettier tests --write"
+        ], 
+        "compatibility": [
+            "vendor/bin/phpcs -p src --standard=PHPCompatibility --runtime-set testVersion 7.2"
+        ]
     },
     "autoload": {
         "psr-4": {
