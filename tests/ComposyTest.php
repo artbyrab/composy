@@ -21,7 +21,7 @@ class ComposyTest extends TestCase
      *
      * Performed before every test.
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->composy = new Composy();
     }
@@ -31,7 +31,7 @@ class ComposyTest extends TestCase
      *
      * Performed after every test.
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         unset($this->composy);
     }
@@ -41,7 +41,7 @@ class ComposyTest extends TestCase
      */
     public function testGetTitle()
     {
-        $this->assertEquals($this->composy->getTitle(), "Composy");
+        $this->assertEquals($this->composy->getTitle(), 'Composy');
     }
 
     /**
@@ -49,6 +49,9 @@ class ComposyTest extends TestCase
      */
     public function testGetDescription()
     {
-        $this->assertEquals($this->composy->getDescription(), "Composy is a base composer package template for PHP. You can use Composy to easily build new composer compatible packages.");
+        $this->assertEquals(
+            $this->composy->getDescription(),
+            'Composy is a base composer package template for PHP. You can use Composy to easily build new composer compatible packages.'
+        );
     }
 }
