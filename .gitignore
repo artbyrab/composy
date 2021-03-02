@@ -1,4 +1,14 @@
+# Ignore composer's vendor folder
 vendor/
+
+# Ignore composer.lock folder
 composer.lock
+
+# Mac OS
 .DS_Store
+
+# PHP-CS cache file
 .php_cs.cache
+
+# php unit results
+.phpunit.result.cache
