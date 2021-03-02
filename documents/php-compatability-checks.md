@@ -17,7 +17,7 @@ $ composer install
 ## Check the library against a specific version of PHP
 
 * $ vendor/bin/phpcs -p src --standard=PHPCompatibility --runtime-set testVersion 5.4
-* $ vendor/bin/phpcs -p src --standard=PHPCompatibility --runtime-set testVersion 7.1
+* $ vendor/bin/phpcs -p src --standard=PHPCompatibility --runtime-set testVersion 7.2
 
 ## Resources
 

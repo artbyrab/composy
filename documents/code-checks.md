@@ -1,25 +1,15 @@
 # Code Checks
 
-You can check the code using PHP Coding Standards Fixer.
+We use various code checkers:
 
-* PHP Coding Standards Fixer
-    * https://github.com/FriendsOfPhp/PHP-CS-Fixer
+* PHP-CS
+* Prettier
 
-## To run PHP CS Fixer
+For more detail on both see the guides and/or the composer.json file to run them via composer.
 
-PHP CS Fixer by default formats to PSR1 and PSR2 standards.
-
-To run it navigate to the repo's main directory.
-
-Then run the following commands:
-```
-$ vendor/bin/php-cs-fixer fix src -v
-$ vendor/bin/php-cs-fixer fix tests -v
+```shell
+$ composer php-cs
+$ composer prettier
 ```
 
-You can run a dry run to see the errors:
-```
-$ vendor/bin/php-cs-fixer fix src --dry-run -v
-```
-
-You would now need to commit the changes before pushing.
+Both commands run on the tests and the src folders
